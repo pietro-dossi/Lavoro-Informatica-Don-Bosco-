@@ -11,8 +11,8 @@ int main(void){
 	////////////////////////////////////////////
 	//tutto dentr oun do while finchè non si terminano le carte del mazzo.
 	cout<<"Inizio della partita. Buona fortuna."<<endl;
-	//get mazzo 
-	//get mazzo
+	//get mazzo giocatore
+	//get mazzo computer
 	//get dominante
 	//funzione di lancio della carta del computer (random)
 	cout<<"Fai la prima mossa. Scegli la carta da lanciare. Digita [1, 2, o 3]."<<endl;

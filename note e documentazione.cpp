@@ -15,4 +15,5 @@ una variabile per il tipo di carta dominante
 
 inizio partita stampa delle carte del giocatore
 sostituzione della carta selezionata con quella nuova pescata dal mazzo.
+
 */

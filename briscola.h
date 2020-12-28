@@ -2,11 +2,13 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
+using namespace std;
 
 struct recCarta{
-	int numero_carta;
+	int numero;
 	string tipo;
-	bool presente;
+	bool presente; //variabile per la gestione delle carte (se true la carta non è mai stata pescata, se false la carta è gia stata pescata)
+	int punteggio;
 };
 
 class Briscola{
@@ -30,11 +32,11 @@ class Briscola{
 		int getPunteggioComputer(void);//
 		void stampaDominante(void);//
 		void stampaMazzoGiocatore(void);// 
-		void stampaMazzoComputer(void);// da fare in seguito.
+		void stampaMazzoComputer(void);// 
 		void lancioCartaComputer(void);//
 		void lancioCartaGiocatore(int n);//
-		void pescaCarta(void);
-		//calcolo puteggio (confronto tra carte lanciate e tipo dominante; scelta punteggio e chiamata setPunteggio)
+		void pescaCarta(void);//
+		void calcoloPunteggio(int &p);//
 		
 		
 		
